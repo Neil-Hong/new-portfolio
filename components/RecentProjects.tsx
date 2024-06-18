@@ -18,12 +18,12 @@ const RecentProjects = () => {
                           <div className='relative  w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
                               <img src="/bg.png" alt='bg-img'/>
                           </div>
-                          <img src={img} alt={title} className='absolute bottom-0 z-10'/>
+                          <img src={img} alt={title} className='absolute z-10'/>
                       </div>
                       <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>
                         {title}
                       </h1>
-                      <p className='lg:text-xl lg:font-normal font-light text-sm line-clamp-2'>
+                      <p className='lg:text-xl lg:font-normal font-light text-sm line-clamp-3'>
                           {des}
                       </p>
                       <div className='flex items-center justify-between mt-7 mb-3'>
@@ -35,9 +35,11 @@ const RecentProjects = () => {
                             ))}
                           </div>               
                       </div>
-                      <div className='flex justify-center items-center'>
-                          <p className='flex lg:text-xl md:text-xs  text-sm text-purple'>Check Live Site</p>
-                          <FaLocationArrow className='ms-3' color='#CBACF9'/>
+                      <div >
+                            <a href={link} className='flex justify-center items-center'>
+                                <p className='flex lg:text-xl md:text-xs  text-sm text-purple'>Check Live Site</p>
+                                <FaLocationArrow className='ms-3' color='#CBACF9'/>
+                            </a>                         
                       </div>
                   </PinContainer>
                   
