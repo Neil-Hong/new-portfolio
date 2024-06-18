@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: "Chargemate - ETHGlobal Sydney Hackathon",
       des: "The project for ETHGlobal Sydney Hackathon, won the pool prize.",
-      img: "/chargemate.png",
+      img: "/Chargemate.png",
       iconLists: ["/vue.svg", "/javascript.svg", "/ts.svg", "/css.svg", "/solidity.svg", "/aws.svg"],
       link: "https://github.com/Neil-Hong/Chargemate",
     },
